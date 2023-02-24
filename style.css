@@ -1,0 +1,71 @@
+body {
+    transition: 1s;
+    background: #153243;
+}
+
+.date-box {
+    border: 2px solid white;
+    width: 500px;
+    height: 200px;
+    border-radius: 30px;
+    transition: 1s;
+    cursor: default;
+}
+
+.date-box:hover {
+    border-radius: 0;
+    transition: 1s;
+}
+
+.heading {
+    color: #FFFFFF;
+    transition: 1s;
+    font-size: 75px;
+    text-align: center;
+}
+
+.two {
+    color: #FFFFFF;
+    font-size: 60px;
+    transition: 1s;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.tac {
+    transition: 1s;
+    text-align: center;
+}
+
+.btn-style {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 15px;
+    border-radius: 50em;
+    background: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.dark {
+    display: none;
+}
+
+.date {
+    border: 2px solid white;
+    width: 450px;
+    height: 111px;
+    border-radius: 0 0 30px 30px;
+    border-top: none;
+    transition: 1s;
+    cursor: default;
+}
+
+.date:hover {
+    border-radius: 0;
+}
